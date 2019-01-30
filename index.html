@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Exam Optimizer</title>
+		<script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="underscore-min.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
+		<script src="ga.js" type="text/javascript"></script>
+		<style type="text/css">
+			table {
+				width: 100%;
+				border-style: none;
+				border-collapse: collapse;
+			}
+			td, th {
+				border-width: 1px; 
+				border-color: black; 
+				border-style: solid;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<h2>Welcome to Exam Optimizer!</h1>
+		<p>Select the exam data file:</p>
+		1. <input type="file" id="inputData"/>
+		<br><br>
+		2.1 <button id="processData" onclick="_.process()">Process Exam Data</button>
+		<br><br>
+		2.2 <button id="solveData" onclick="_.solve()">Solve Exam Data</button>
+		<br><br>
+		<div>
+			<span>3. Progress: </span>
+			<span id="progress"></span>
+		</div>		
+		<br>
+		<div>
+			<span>4. Result: </span><b><span id="is_valid"></span></b><br><br>
+			<span id="result" style="display:none">... processing - please wait ...</span>
+		</div>	
+		<br>
+		<div>
+			<span>5. </span><input type="checkbox" id="download"> Download as Excel<br>
+		</div>	
+		<h4>Copyright &copy; 2014, Oliver Klemenz</h1>
+		<script type="text/javascript"> 
+			//_.test();
+		</script>
+	</body>
+</html>

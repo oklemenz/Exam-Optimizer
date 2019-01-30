@@ -1,0 +1,76 @@
+{
+	"Timepoints" : [{
+		"ID" : 1,
+		"Day" : 1,
+		"Name" : "9:00 - 9:20"
+	}, {
+		"ID" : 2,
+		"Day" : 1,
+		"Name" : "9:20 - 9:40"
+	}],
+	"Teachers" : [{
+		"ID" : 1,
+		"Code" : "SCW",
+		"Name" : "Christina Schwing",
+		"Exams" : [{
+			"ID" : 1,
+			"Class": "BK1T1", 
+			"Subject": "D"
+		}, {
+			"ID" : 2,
+			"Class": "BK1T1", 
+			"Subject": "GK"
+		}, {
+			"ID" : 3,
+			"Class": "BK1T2", 
+			"Subject": "D"
+		}, {
+			"ID" : 4,
+			"Class": "BK1T2", 
+			"Subject": "GK"
+		}]
+	}, {
+		"ID" : 2,
+		"Code" : "BER",
+		"Name" : "Rene Bertsch",
+		"Exams" : [{
+			"ID" : 5,
+			"Class": "BK1T1", 
+			"Subject": "M"
+		}, {
+			"ID" : 6,
+			"Class": "BK1T2", 
+			"Subject": "M"
+		}]
+	}],
+	"Students" : [{
+		"ID" : 1,
+		"Name" : "Max Mustermann",
+		"Class" : "BK1T1",
+		"Exams" : [{
+			"ID" : 1,
+			"Subject": "M"
+		}, {
+			"ID" : 2,
+			"Subject": "GK"
+		}]
+	}, {
+		"ID" : 2,
+		"Name" : "Sandra Sonnig",
+		"Class" : "BK1T2",
+		"Exams" : [{
+			"ID" : 3,
+			"Subject": "D"
+		}, {
+			"ID" : 4,
+			"Subject": "M"
+		}]
+	}],
+	"Parameters" : {
+		"GenerationCount" : 1000,
+		"PopulationSize": 1000,
+		"MutationRate" : 0.7,
+		"CrossoverRate" : 0.2,
+		"ElitismRate": 0.01
+	}
+}
