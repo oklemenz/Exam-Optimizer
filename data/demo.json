@@ -10,8 +10,8 @@
 	}],
 	"Teachers" : [{
 		"ID" : 1,
-		"Code" : "SCW",
-		"Name" : "Christina Schwing",
+		"Code" : "ALICE",
+		"Name" : "Alice Wonderland",
 		"Exams" : [{
 			"ID" : 1,
 			"Class": "BK1T1", 
@@ -31,8 +31,8 @@
 		}]
 	}, {
 		"ID" : 2,
-		"Code" : "BER",
-		"Name" : "Rene Bertsch",
+		"Code" : "WWW",
+		"Name" : "Willi Weber",
 		"Exams" : [{
 			"ID" : 5,
 			"Class": "BK1T1", 
